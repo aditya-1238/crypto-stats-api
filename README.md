@@ -30,7 +30,12 @@ The **Crypto Statistics API** is a Node.js application that fetches the current 
 - Get latest stats: GET /stats?coin=bitcoin
 - Get standard deviation: GET /deviation?coin=bitcoin
 
+## Images of working API using Postman
 
+- /stats?coin=bitcoin
+![image](https://github.com/user-attachments/assets/4b0f49d8-0429-4d25-aa1e-d0e373f3fc9b)
+- /deviation?coin=ethereum
+![image](https://github.com/user-attachments/assets/577677f4-89f9-4966-a96a-47f57b7c0847)
 
 ## License
 This project is licensed under the MIT License.
