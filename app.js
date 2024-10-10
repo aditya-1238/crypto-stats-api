@@ -25,11 +25,10 @@ const app = express();
 
 fetchCryptoDataJob();
 
-app.get('/', (req, res) => { 
-    res.send('A simple Node App is '
-        + 'running on this server') 
-    res.end() 
-}) 
+app.get('/', (req, res) => {
+  res.send('Welcome to the Crypto Stats API! Use /stats or /deviation endpoints to get data.');
+  res.end();
+});
 
 
 app.use('/', statsRoutes); 
